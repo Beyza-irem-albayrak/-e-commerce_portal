@@ -1,0 +1,119 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sepet tablosu stili */
+.table-striped {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-striped th,
+.table-striped td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table-striped th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Sepet işlemleri stili */
+.table-striped .btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.table-striped .btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    color: white;
+}
+
+.table-striped .btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: white;
+}
+
+.table-striped .btn-danger:hover,
+.table-striped .btn-success:hover {
+    opacity: 0.8;
+}
+
+/* Sepet toplam kısmı stili */
+.text-right {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.text-right .btn {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: white;
+}
+
+.text-right .btn:hover {
+    opacity: 0.8;
+}
+
+/* Footer stili */
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+footer h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons a {
+    color: #495057;
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: #007bff;
+}
